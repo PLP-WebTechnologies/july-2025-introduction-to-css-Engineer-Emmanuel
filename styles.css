@@ -1,0 +1,74 @@
+/* General container styles */
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto; /* margin around the container */
+    padding: 15px;     /* inner space */
+    border: 2px solid #333; /* visible border to show box model */
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    background-color: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* Navigation buttons */
+.nav {
+    margin-top: 10px;
+}
+
+.nav-button {
+    background-color: #357ABD;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #285179;
+}
+
+/* Main content styles */
+.main-content {
+    background-color: #ffffff;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Card section demonstrating box model */
+.card {
+    flex: 1;
+    border: 2px solid #ccc;
+    padding: 20px;    /* space inside the border */
+    margin: 10px 0;   /* space outside the border */
+    background-color: #e4f0f6;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Footer styles */
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-top: 2px solid #333;
+    margin-top: 40px;
+}
